@@ -1,57 +1,46 @@
-/* Corpo geral da página */
 body {
     display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura total da tela */
-    margin: 0; /* Remove margens padrão */
-    font-family: Arial, sans-serif; /* Fonte padrão */
-    background-color: #f5f5f5; /* Fundo neutro */
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    font-family: Arial, sans-serif; 
+    background-color: #f5f5f5; 
   }
-  
-  /* Estilo da div que contém o formulário */
   .parte-do-cadastro {
-    background-color: white; /* Fundo branco */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra leve */
-    width: 300px; /* Largura fixa */
+    background-color: white; 
+    padding: 20px; 
+    border-radius: 10px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);     width: 300px; 
   }
   
-  /* Estilo geral dos rótulos */
   .parte-do-cadastro label {
-    font-size: 14px; /* Tamanho da fonte */
-    color: #333; /* Cor do texto */
-    margin-bottom: 5px; /* Espaçamento inferior */
-    display: block; /* Força o label a ocupar uma linha inteira */
+    font-size: 14px;    color: #333;     margin-bottom: 5px; 
+    display: block; 
   }
   
-  /* Estilo geral dos inputs */
   .parte-do-cadastro input {
-    width: 100%; /* Preenche toda a largura disponível */
-    padding: 10px; /* Espaçamento interno */
-    margin-bottom: 15px; /* Espaçamento entre os campos */
-    border: 1px solid #ccc; /* Borda cinza clara */
-    border-radius: 05px; /* Bordas arredondadas */
-    font-size: 14px; /* Tamanho da fonte */
-    box-sizing: border-box; /* Garante que o padding esteja incluído na largura total */
+    width: 100%; 
+    padding: 10px; 
+    border: 1px solid #ccc; 
+    border-radius: 05px; 
+    font-size: 14px; 
+    box-sizing: border-box; 
   }
   
-  /* Botão principal */
   button {
-    width: 100%; /* Preenche toda a largura da div */
-    padding: 10px; /* Espaçamento interno */
-    background-color: #fa1c41; /* Azul primário */
-    color: white; /* Texto branco */
-    font-size: 16px; /* Tamanho da fonte */
-    border: none; /* Remove borda padrão */
-    border-radius: 100px; /* Bordas arredondadas */
-    cursor: pointer; /* Cursor de clique */
-    transition: background-color 0.3s ease; /* Transição suave no hover */
+    width: 100%; 
+    padding: 10px;
+    background-color: #fa1c41; 
+    color: white; 
+    font-size: 16px; 
+    border: none; 
+    border-radius: 100px; 
+    cursor: pointer; 
+    transition: background-color 0.3s ease; 
   }
   
-  /* Efeito hover no botão */
   button:hover {
-    background-color: #a70448; /* Azul mais escuro */
+    background-color: #a70448; 
   }
   

@@ -1,59 +1,52 @@
-/* Estilização do corpo da página */
 body {
-    display: flex;
-    justify-content: center; /* Centraliza horizontalmente */
-    align-items: center; /* Centraliza verticalmente */
-    height: 100vh; /* Altura total da tela */
-    margin: 0; /* Remove margens padrão */
-    font-family: Arial, sans-serif; /* Define fonte padrão */
-    background-color: #f4f4f9; /* Fundo claro */
-  }
-  
-  /* Container do formulário */
-  form {
-    background-color: white; /* Fundo branco */
-    padding: 20px; /* Espaçamento interno */
-    border-radius: 10px; /* Bordas arredondadas */
-    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Sombra suave */
-    width: 300px; /* Largura fixa */
-    display: flex;
-    flex-direction: column; /* Organiza os elementos em coluna */
-    gap: 15px; /* Espaço entre os elementos */
-  }
-  
-  /* Estilo dos rótulos */
-  form label {
-    font-size: 14px; /* Tamanho do texto */
-    color: #333; /* Cor do texto */
-    margin-bottom: 5px; /* Espaço abaixo do rótulo */
-  }
-  
-  /* Estilo dos campos de entrada */
-  form input {
-    width: 100%; /* Preenche toda a largura do container */
-    padding: 10px; /* Espaçamento interno */
-    border: 1px solid #ccc; /* Borda cinza clara */
-    border-radius: 5px; /* Bordas arredondadas */
-    font-size: 14px; /* Tamanho da fonte */
-    box-sizing: border-box; /* Garante que o padding não ultrapasse a largura */
-  }
-  
-  /* Estilização do botão */
-  button {
-    width: 100%; /* Preenche toda a largura do container */
-    padding: 10px; /* Espaçamento interno */
-    font-size: 16px; /* Tamanho do texto */
-    color: white; /* Texto branco */
-    background-color: #f8213d; /* Cor azul */
-    border: none; /* Remove a borda padrão */
-    border-radius: 5px; /* Bordas arredondadas */
-    cursor: pointer; /* Indica interatividade */
-    transition: background-color 0.3s ease; /* Efeito de transição ao passar o mouse */
-    margin-top: 15px; /* Espaço acima do botão */
-  }
-  
-  /* Efeito hover no botão */
-  button:hover {
-    background-color: #c20e44; /* Azul mais escuro */
-  }
-  
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  margin: 0; 
+  font-family: Arial, sans-serif; 
+  background-color: #f4f4f9; 
+}
+
+form {
+  background-color: white; 
+  padding: 20px; 
+  border-radius: 10px; 
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); 
+  width: 300px; 
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+}
+
+form label {
+  font-size: 14px; 
+  color: #333; 
+  margin-bottom: 5px; 
+}
+
+form input {
+  width: 100%; 
+  padding: 10px; 
+  border: 1px solid #ccc; 
+  border-radius: 5px; 
+  font-size: 14px; 
+  box-sizing: border-box; 
+}
+
+button {
+  width: 100%; 
+  padding: 10px; 
+  font-size: 16px; 
+  color: white; 
+  background-color: #f8213d; 
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #c20e44;
+}
