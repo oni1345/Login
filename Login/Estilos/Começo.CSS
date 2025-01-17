@@ -1,0 +1,35 @@
+/* estilo geral do body */
+body {
+  display: flex; /* Usar flexbox para o layout */
+  flex-direction: column; /* Organizar os itens na direção vertical */
+  justify-content: center; /* Centralizar verticalmente */
+  align-items: center; /* Centralizar horizontalmente */
+  height: 100vh; /* Preencher a altura da tela */
+  margin: 0; /* Remover margens padrão */
+  font-family: Arial, sans-serif; /* Definir a fonte */
+  background-color: #f0f0f0; /* Cor de fundo clara */
+}
+
+/* Estilizar os botões */
+button {
+  padding: 10px 20px; /* Espaçamento interno dos botões */
+  font-size: 16px; /* Tamanho da fonte */
+  border: none; /* Remover bordas padrão */
+  border-radius: 20px; /* Bordas arredondadas */
+  background-color:rgb(230, 57, 57); /* Cor de fundo azul */
+  color: white; /* Cor do texto */
+  cursor: pointer; /* Mostrar o cursor de clique */
+  margin: 10px 0; /* Espaçamento entre os botões */
+  transition: background-color 0.3s ease; /* Transição suave para alteração de cor */
+}
+
+/* Efeito ao passar o mouse */
+button:hover {
+  background-color: #c50646; /* Cor de fundo azul escuro ao passar o mouse */
+}
+
+/* Adicionalmente, estilizar o container de cada botão */
+.Login, .Cadastrar-se {
+  margin-bottom: 20px; /* Espaçamento inferior entre as seções */
+  text-align: center; /* cetralização do texto*/
+}
